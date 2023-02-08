@@ -1,0 +1,51 @@
+.newChatForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.form-strings {
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+.form-strings:hover {
+    border-color: rgb(127, 255, 150);
+}
+
+input {
+    border-radius: 10px;
+    outline: none;
+}
+
+.backbutton img {
+    width: 40px;
+}
+
+.form-button {
+    border-radius: 13px;
+    padding: 10px;
+    border: 0;
+    transition-duration: 0.3s;
+}
+
+.form-button:hover {
+    background-color: greenyellow;
+}
+
+.loginExists {
+    color: red;
+    
+}
+
+.form-error {
+    color: red;
+}
+
+.form-input {
+    padding: 0 5px 0 5px;
+}

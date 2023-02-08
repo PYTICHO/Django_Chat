@@ -1,0 +1,33 @@
+
+.box {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-box a {
+    padding: 3px;
+}
+
+.button-box a button {
+    min-height: 40px;
+    min-width: 160px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 21px;
+    transition-duration: 0.3s;
+}
+
+.button-box a button:hover {
+    background-color: #19c37d;
+
+}

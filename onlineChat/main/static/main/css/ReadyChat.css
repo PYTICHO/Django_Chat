@@ -1,0 +1,105 @@
+.menu {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    width: 20vw;
+    padding: 7vh 1vw 0 1vw;
+}
+
+.login-name, .exit-bar{
+    border-radius: 10px;
+    padding: 6px;
+    background-color:gray;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.messages-box {
+    width: 100%;
+    height: fit-content;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 15px;
+    color: orange;
+}
+
+.messages-box-another {
+    width: 100%;
+    height: fit-content;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 15px;
+    color:royalblue
+}
+
+.chat {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.message-string {
+    display: flex;
+    flex-direction: row;
+}
+
+.message-string div {
+    width: 100%;
+}
+
+.message-string button {
+    margin-left: 10px;
+}
+
+.message-form {
+    margin-bottom: 10px;
+}
+
+.form-input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+}
+
+.message {
+    word-break: break-all;
+    max-width: 80%;
+}
+
+.messages-content {
+    overflow-y: scroll;
+}
+.messages-content::-webkit-scrollbar {
+    width: 10px;
+}
+  
+.messages-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: transparent;
+    border-radius: 10px;
+}
+  
+.messages-content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+}

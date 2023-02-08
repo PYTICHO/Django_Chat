@@ -1,0 +1,82 @@
+input {
+    outline: none;
+}
+
+.chats {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat {
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    width: 35%;
+    margin-top: 5px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    color: rgb(190, 190, 190);
+    min-width: 200px;
+
+}
+
+.chat:hover {
+    border-color: rgb(63, 169, 255);
+    color: white
+}
+
+.search, .chats {
+    padding-left: 2%;
+}
+
+.search {
+    margin-top: 10px;
+}
+
+.search-button {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+}
+
+.form-search {
+    display: flex;
+}
+
+.error-search {
+    color: rgb(187, 73, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backbutton img {
+    width: 40px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.search-input {
+    justify-content: center;
+}
+
+.chats a {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
+
+
+.error-search-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
